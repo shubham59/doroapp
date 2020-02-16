@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city_array">
+        <item>bangalore</item>
+        <item>delhi</item>
+        <item>gurgaon</item>
+        <item>hyderabad</item>
+        <item>mumbai</item>
+        <item>noida</item>
+        <item>pune</item>
+        <item>raipur</item>
+        <item>shimla</item>
+        <item>udaipur</item>
+        <item>varanasi</item>
+    </string-array>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.HelpActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbar"
+        android:elevation="16dp"
+        android:paddingTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="need support?"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:onClick="onBackClick"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_keyboard_arrow_left_white_24dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/option_adopt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_cornered_white"
+        android:elevation="6dp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/constraintLayout">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:alpha=".5"
+            android:src="@drawable/ic_mail_outline_black_24dp" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/img"
+            android:fontFamily="@font/montserrat"
+            android:text="email us"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/img"
+            android:fontFamily="@font/montserrat"
+            android:text="help@mydoro.in" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_cornered_white"
+        android:elevation="6dp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/option_adopt">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:alpha=".5"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_local_phone_black_24dp" />
+
+        <TextView
+            android:id="@+id/tv_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/img1"
+            android:fontFamily="@font/montserrat"
+            android:text="family for a dog"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title1"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/img1"
+            android:fontFamily="@font/montserrat"
+            android:text="list dog for adoption" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

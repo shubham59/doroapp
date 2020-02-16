@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.AdoptionMediaFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_stroked_corner"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="photo 1"
+            android:fontFamily="@font/montserrat"
+            android:id="@+id/tv_label"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="image 123943040504.jpg"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_below="@id/tv_label"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_close_accent_24dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_stroked_corner"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="photo 2"
+            android:fontFamily="@font/montserrat"
+            android:id="@+id/tv_label_2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="image 123943040504.jpg"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_below="@id/tv_label_2"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_close_accent_24dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_stroked_corner"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="photo 3"
+            android:fontFamily="@font/montserrat"
+            android:id="@+id/tv_label_3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="image 123943040504.jpg"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_below="@id/tv_label_3"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_close_accent_24dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_stroked_corner"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="photo 4"
+            android:fontFamily="@font/montserrat"
+            android:id="@+id/tv_label_4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="image 123943040504.jpg"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_below="@id/tv_label_4"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_close_accent_24dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_stroked_corner"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="video 1"
+            android:fontFamily="@font/montserrat"
+            android:id="@+id/tv_label_5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="image 123943040504.jpg"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_below="@id/tv_label_5"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_close_accent_24dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DuraApp</string>
+    <string name="title_home">home</string>
+    <string name="title_adopt">adopt</string>
+    <string name="title_my_post">my posts</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="guide"><b>Do’s </b>\nTry to post high resolution, clear and original photos. It is advisable to post a short video of less than 60 seconds. \nProvide authentic information for quicker and easier screening of the application. \nTreat this as an organic platform for adoption appeals. \nCheck your ‘my posts’ page for the application status. \nWishlist the dog you want to adopt by clicking on the dog icon image on the dog profile card Don’ts It isn’t a platform to buy or sell dogs - a strict NO for breeders It is not a dog medical treatment platform - don’t place requests that need immediate medical attention</string>
+</resources>

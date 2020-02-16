@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context=".activites.LoginActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/bg_top_homr"
+        android:elevation="24dp"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <ImageView
+            android:id="@+id/img_settings"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="start"
+            android:src="@drawable/ic_keyboard_arrow_left_white_24dp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="login"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:hint="email"
+            app:hintAnimationEnabled="true"
+            app:hintEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/montserrat"
+            android:hint="password"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_fp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/montserrat"
+            android:text="forgot password?"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:background="@drawable/bg_btn_primary"
+            android:fontFamily="@font/montserrat"
+            android:text="next"
+            android:textAllCaps="false"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/tv_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat"
+            android:text="don't have an account? Sign up" />
+    </LinearLayout>
+
+</LinearLayout>
